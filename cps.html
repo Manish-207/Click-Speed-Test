@@ -1,0 +1,432 @@
+c<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styler.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav class="head">
+                <div class="dn">
+                    <img src="https://png.pngtree.com/png-vector/20230903/ourmid/pngtree-isolated-plain-white-mug-png-image_9949606.png" alt="" class="cup">
+                    <H2>Women</H2>
+                </div>
+                <div>
+                    <ul class="navbarlist">
+                        <li>
+                            <a href="#">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                About
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="mainwrap">
+            <div class="intro">
+                <h1>
+                    CPS 
+                    <span class="keyw"> Test </span>
+                </h1>
+                <p>Curious about how fast you can really click, this CPS Tester is just the thing. It measures your clicks per second through a simple and clean click speed test, and over time, it can help you naturally increase your clicking speed too.</p>
+            </div>
+            <div class="mainUI">
+                <div class="uisection1">
+                    <div class="score timer ">
+                        <p id="timeleft">0</p>
+                        <p>Time</p>
+                    </div>
+                    <div class="score clickCount">
+                        <p id="no-of-clicks"></p>
+                        <p>Clicks</p>
+                    </div>
+                </div>
+                <div class="uisection2">
+                    <div class="clickZone">
+                        <div class="ponterlogo">
+
+                        </div>
+                        <div>
+                            <p>Click Here to <br><span class="keyw">Start</span></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="uisections3 opts">
+                    <div class="option music"></div>
+                    <div class="option fullscreen"></div>
+                    <div class="option clicksound"></div>
+                </div>
+                <div class="uisections3 mods">
+                    <div class="modes">
+                        <button class="duration "><span> 1</span>s</button>
+                    </div>
+                    <div class="modes">
+                        <button class="duration chosen "><span> 5</span>s</button>
+                    </div>
+                    <div class="modes">
+                        <button class="duration "><span> 10</span>s</button>
+                    </div>
+                    <div class="modes">
+                        <button class="duration "><span> 60</span>s</button>
+                    </div>
+                    <div class="modes">
+                        <button class="duration "><span> 100</span>s</button>
+                    </div>
+                </div>
+            </div>
+            <div class="popup">
+                <p id="pophead">
+                    Score Card 
+                </p>
+                <div class="marks">
+                   
+                    <div class="analogy">
+                        <img src="./images/turtle.png" alt="" class="animalimg">
+                        <p class="animalname">Animal</p>
+                        <p class="fremark">Funny Remark</p>
+                    </div>
+                    <div class="writtenscore">
+                        <p>Your Score is <span id="cpscore"> -Score</span></p>
+                        <p>You clicked <span id="cpclicks"></span> times in <span id="cptime"></span> seconds</p>
+                    </div>
+                    
+                </div>
+                <div class="share">
+                    <p>Compete With Your Friends</p>
+                    <div class="sharelogos">
+                        <div><img src=".\images\174879.png" alt="Whatsapp"></div>
+                        <div><img src=".\images\3621435.png" alt="Instagram"></div>
+                        <div><img src=".\images\733547.png" alt="facebook"></div>
+                        <div><img src=".\images\5968830.png" alt="X"></div>
+                    </div>
+                    <div class="svl">
+                        <div>URL</div>
+                        <button id="sbl">Copy URL</button>
+                    </div>
+                </div>
+                <div class="tryagain">
+                    
+                    <button id="tryagainbutton">
+                        Try again
+                    </button>
+                </div>
+            </div>
+            <div class="Details">
+                <h2 class="q1">What is <span class="keyw">CPS Test</span>?</h2>
+                <p>The <a href="#" target="_blank">CPS Test</a> (Clicks Per Second Test) is a simple way to check how fast you can click your mouse in a given time. It’s more of a fun challenge than anything serious, but it’s also helpful if you want to improve your speed and control—especially for gaming or tasks that need quick clicks.</p>
+                <p>This test works by counting your total clicks and dividing them by the time limit you choose. It gives you a clear score so you can track how you're doing and try to beat your best. Whether you're just curious or aiming to get faster, it's a great little tool to have fun with.</p>
+               <hr class="linebreak">
+            </div>
+            <div class="Details">
+                <h2 class="q1">How to Measure <span class="keyw">Mouse Clicking Speed</span>?</h2>
+            
+                <ol>
+                    <li>
+                        <p><b>Open Website:</b> Go to CPSTest.io using your preferred web browser.</p>
+                    </li>
+                    <li>
+                        <p><b>Select Duration:</b> Choose your test duration from the right side menu, default is 5 seconds.</p>
+                    </li>
+                    <li>
+                        <p><b>Start Test:</b> Click the big button labeled "Click to Start Test" at the center.</p>
+                    </li>
+                    <li>
+                        <p><b>Click Rapidly:</b> Begin clicking as fast as you can until the timer runs out.</p>
+                    </li>
+                    <li>
+                        <p><b>View Results:</b> Your CPS score will appear, showing your clicks per second rate.</p>
+                    </li>
+                </ol>
+            
+                <p>You can retake the click test by pressing the "Try Again" button to improve your mouse clicking speed. Regular practice will help increase your CPS score.</p>
+            
+                <hr class="linebreak">
+            </div>
+
+            <div class="Details">
+                <h2 class="q1">Features of <span class="keyw">CPS Test</span></h2>
+            
+                <ul>
+                    <li>
+                        <p class="h4">Multi-Time Modes</p>
+                        <p>Try different durations like 1, 5, 10, 60, or even 100 seconds. Each one gives you a fresh way to test and push your clicking speed.</p>
+                    </li>
+                </ul>
+            
+                <ul>
+                    <li>
+                        <p class="h4">Works on All Devices</p>
+                        <p>Whether you’re using a phone, tablet, or desktop, the CPS Test works smoothly without any extra setup.</p>
+                    </li>
+                </ul>
+            
+                <ul>
+                    <li>
+                        <p class="h4">Live Score Tracking</p>
+                        <p>Watch your clicks update in real-time while you’re taking the test — makes it easier to stay focused and keep track.</p>
+                    </li>
+                </ul>
+            
+                <ul>
+                    <li>
+                        <p class="h4">Always Accessible</p>
+                        <p>You can open the CPS Test even from school or work networks. No blocks, no hassle — just click and go.</p>
+                    </li>
+                </ul>
+            
+                <hr class="linebreak">
+            </div>
+            <div class="Details">
+                <h2 class="q1">How to Increase <span class="keyw">Clicks Per Second Rate</span>?</h2>
+            
+                <p>Want to click faster? Whether you're into gaming or just want to boost your reaction time, increasing your CPS (Clicks Per Second) can help. Here’s how you can get better at it.</p>
+            
+                <p class="h4">Practice Every Day</p>
+                <p>Just like any other skill, clicking speed improves with daily practice. Spend a few minutes daily on tools like CPSTest.io to track your progress. Over time, your fingers get quicker, your muscle memory improves, and your CPS score climbs naturally.</p>
+            
+                <p class="h4">Use a Gaming Mouse</p>
+                <p>If you’re serious about clicking faster, consider switching to a gaming mouse. These mice are built for speed — they’re more responsive, fit better in hand, and often come with click-friendly features like lightweight buttons and higher DPI.</p>
+            
+                <p class="h4">Try Advanced Clicking Styles</p>
+                <p>Want to push even further? Learn and practice advanced clicking techniques. Here are a few that can seriously boost your CPS rate:</p>
+            
+                <p class="h4 mt-4">Jitter Clicking</p>
+                <p><a href="#jitter-click-test" target="_blank">Jitter clicking</a> uses quick, controlled arm vibrations to click rapidly. It’s tricky at first, but with practice, it can give a solid CPS boost. Keep your hand still and use your forearm to generate those micro-movements.</p>
+            
+                <p class="h4 mt-4">Butterfly Clicking</p>
+                <p><a href="#butterfly-click-test" target="_blank">Butterfly clicking</a> uses two fingers (usually index and middle) to alternate clicks. This method often doubles your click rate. It feels odd at first, but with rhythm and timing, it becomes a reliable technique.</p>
+            
+                <p class="h4 mt-4">Drag Clicking</p>
+                <p><a href="#drag-click-test" target="_blank">Drag clicking</a> involves sliding your finger over the mouse button to generate many clicks at once. It’s fast — sometimes extremely fast — but requires the right mouse and can wear it down quicker.</p>
+            
+                <p>Keep practicing and combine methods that suit you best. Your CPS will naturally improve over time — and your gaming performance will too.</p>
+            
+                <p class="h4 mb-3"><b>Clicking Method Comparison Table</b></p>
+            
+                <div class="table-responsive">
+                    <table class="table-compare">
+                        <tbody>
+                            <thead>
+                                <th>Clicking Method</th>
+                                <th>CPS Rate</th>
+                                <th>Learning Curve</th>
+                                <th>Precision</th>
+                                <th>Equipment</th>
+                                <th>Health Tips</th>
+                                <th>Best For</th>
+                                <th>Games</th>
+                            </thead>
+                            <tr>
+                                <td>Jitter Clicking</td>
+                                <td>10–14 CPS</td>
+                                <td>Medium (3/5)</td>
+                                <td>Average</td>
+                                <td>Any gaming mouse</td>
+                                <td>Moderate strain — take breaks</td>
+                                <td>Fast-paced PvP combat</td>
+                                <td>Minecraft, MOBAs</td>
+                            </tr>
+                            <tr>
+                                <td>Butterfly Clicking</td>
+                                <td>15–25 CPS</td>
+                                <td>Hard (4/5)</td>
+                                <td>High</td>
+                                <td>Light-click mouse</td>
+                                <td>Low strain — stretch often</td>
+                                <td>Bridging, rapid shots</td>
+                                <td>Minecraft, Roblox</td>
+                            </tr>
+                            <tr>
+                                <td>Drag Clicking</td>
+                                <td>25–100 CPS</td>
+                                <td>Very Hard (5/5)</td>
+                                <td>Low</td>
+                                <td>Textured gaming mouse</td>
+                                <td>High strain — limit use</td>
+                                <td>Advanced tricks (e.g., God bridging)</td>
+                                <td>Minecraft (some servers ban this)</td>
+                            </tr>
+                            <tr>
+                                <td colspan="8">
+                                    <p><i>Note:</i> CPS rates and comfort levels can vary from person to person. Always prioritize safety and avoid overstraining your hand. Table compiled from real user data as of May 2024.</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            
+                <hr class="linebreak">
+            </div>
+            <div class="Details">
+                <h2 class="q1">See Our <span class="keyw">Other Tools</span></h2>
+                <div class="moretools">
+                    <div class="tools">
+                        <a href="#" >
+                            <div class="toolanchor">
+                                <div><img src="#" alt="#"></div>
+                                <div>Youtube Thumbnail Downloader</div>
+                            </div>
+                        </a>
+                    </div>
+                     <div class="tools">
+                        <a href="#" >
+                            <div class="toolanchor">
+                                <div><img src="#" alt="#"></div>
+                                <div>Spacebar speed test</div>
+                            </div>
+                        </a>
+                    </div>
+                     <div class="tools">
+                        <a href="#" >
+                            <div class="toolanchor">
+                                <div><img src="#" alt="#"></div>
+                                <div>Jitter Speed Test</div>
+                            </div>
+                        </a>
+                    </div>
+                     <div class="tools">
+                        <a href="#" >
+                            <div class="toolanchor">
+                                <div><img src="#" alt="#"></div>
+                                <div>Online Guitar</div>
+                            </div>
+                        </a>
+                    </div>
+                     <div class="tools">
+                        <a href="#" >
+                            <div class="toolanchor">
+                                <div><img src="#" alt="#"></div>
+                                <div>Online Piano</div>
+                            </div>
+                        </a>
+                    </div>
+                     <div class="tools">
+                        <a href="#" >
+                            <div class="toolanchor">
+                                <div><img src="#" alt="#"></div>
+                                <div>Image Compressor</div>
+                            </div>
+                        </a>
+                    </div>
+                     <div class="tools">
+                        <a href="#" >
+                            <div class="toolanchor">
+                                <div><img src="#" alt="#"></div>
+                                <div>PNG to JPG coverter</div>
+                            </div>
+                        </a>
+                    </div>
+                     <div class="tools">
+                        <a href="#" >
+                            <div class="toolanchor">
+                                <div><img src="#" alt="#"></div>
+                                <div>Click counter</div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <hr class="linebreak">
+            </div>
+
+
+
+
+            </div>
+        </main>
+        
+        <footer id="site-footer">
+    
+          <!-- 🔹 Div A: Top Section -->
+          <div id="footer-top">
+        
+            <div class="footer-columns">
+        
+              <!-- Left Column: Brand + Social -->
+              <div class="footer-left">
+        
+                <!-- Div 1: Logo and Site Name -->
+                <div id="footer-logo">
+                  <img src="https://png.pngtree.com/png-vector/20230903/ourmid/pngtree-isolated-plain-white-mug-png-image_9949606.png" alt="Site Logo" width="40" height="40">
+                  <span class="site-name">Women</span>
+                </div>
+        
+                <!-- Div 2: Social Links -->
+                <div id="footer-social">
+                  <a href="https://linkedin.com" target="_blank">LinkedIn</a> |
+                  <a href="https://instagram.com" target="_blank">Instagram</a> |
+                  <a href="https://youtube.com" target="_blank">YouTube</a>
+                </div>
+        
+              </div>
+        
+              <!-- Right Column: Link Sections -->
+              <div class="footer-right">
+        
+                <!-- Other Tools -->
+                <div class="footer-section" id="footer-other-tools">
+                  <h3>Other Tools</h3>
+                  <ul>
+                    <li><a href="#">YouTube Downloader</a></li>
+                    <li><a href="#">PNG to JPG</a></li>
+                    <li><a href="#">Online Piano</a></li>
+                    <li><a href="#">Others</a></li>
+                  </ul>
+                </div>
+        
+                <!-- Quick Links -->
+                <div class="footer-section" id="footer-quick-links">
+                  <h3>Quick Links</h3>
+                  <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                  </ul>
+                </div>
+        
+                <!-- More -->
+                <div class="footer-section" id="footer-more">
+                  <h3>More</h3>
+                  <ul>
+                    <!-- Empty for now -->
+                  </ul>
+                </div>
+        
+              </div>
+        
+            </div>
+          </div>
+        
+          <!-- 🔹 Div B: Bottom Section -->
+          <div id="footer-bottom">
+            <div>
+                <p>© 2025 All rights reserved</p>
+            <p>Made with love ❤️</p>
+            </div>
+            
+          </div>
+        
+
+        
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
